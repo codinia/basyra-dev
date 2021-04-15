@@ -1,0 +1,1 @@
+INSERT INTO CITY (Name) VALUES ('Lahore')
