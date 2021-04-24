@@ -5,9 +5,8 @@ using System.Text;
 
 namespace Services.Interfaces
 {
-    public interface IItemService
+    public interface IItemRepository : IBaseRepository
     {
-        bool InsertItem(ItemRequestModel itemRequestModel);
-
+        void InsertItem(ItemRequestModel itemRequestModel);
     }
 }

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AccommodationAPI.APIModels;
-using Infrastructure.DataModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Services.DataModels;
 using Services.Interfaces;
 
 namespace AccommodationAPI.Controllers

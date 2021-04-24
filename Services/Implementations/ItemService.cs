@@ -1,7 +1,6 @@
-﻿using Infrastructure.CustomModels;
-using Repository.Interfaces;
-using Repository.Provider;
+﻿using Services.CustomModels;
 using Services.Interfaces;
+using Services.Provider;
 using System;
 using System.Collections.Generic;
 using System.Text;

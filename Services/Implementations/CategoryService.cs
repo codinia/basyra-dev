@@ -1,7 +1,6 @@
-﻿using Infrastructure.DataModels;
-using Repository.Interfaces;
-using Repository.Provider;
+﻿using Services.DataModels;
 using Services.Interfaces;
+using Services.Provider;
 using System;
 using System.Collections.Generic;
 using System.Linq;

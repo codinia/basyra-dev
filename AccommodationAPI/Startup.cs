@@ -19,14 +19,12 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Infrastructure.Cache;
 using AccommodationAPI.Identity;
 using System.Data;
-using Repository.Provider;
 using Services.Interfaces;
 using Services.Implementations;
-using Repository.Interfaces;
-using Repository.Implementations;
+using Services.Provider;
+using Services.Cache;
 
 namespace AccommodationAPI
 {

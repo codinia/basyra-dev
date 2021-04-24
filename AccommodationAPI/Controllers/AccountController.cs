@@ -9,17 +9,17 @@ using AccommodationAPI.APIModels;
 using AccommodationAPI.APIRequestModels;
 using AccommodationAPI.APIRequestModels.User;
 using AccommodationAPI.Identity;
-using Infrastructure.Cache;
-using Infrastructure.Enums;
-using Infrastructure.Exceptions;
-using Infrastructure.Helpers;
-using Infrastructure.Validations;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using Services.Cache;
+using Services.Enums;
+using Services.Exceptions;
+using Services.Helpers;
+using Services.Validations;
 
 namespace AccommodationAPI.Controllers
 {
